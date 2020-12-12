@@ -59,8 +59,9 @@ a {
 }
   
   .hero-cta {
-    width: 90%;
+    width: 70%;
     margin-left: 100%;
+    padding-top: 40%;
     color: #11444d;
     font-size: 28px;
     line-height: 1.2;
@@ -70,7 +71,9 @@ a {
     font-size: 50px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
+/* HERO STYLES END */
 
+/* ABOUT ME SECTION START */
   .section-title {
     font-size: 48px;
     border-bottom: 3px solid;
@@ -90,38 +93,25 @@ a {
     font-size: 30px;
     text-align: center;
   }
+/* ABOUT ME SECTION END */
 
-  /* MEET THE TRAINERS START */
-.projects {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-  }
-  
-  .project {
-    margin: 20px;
-    flex: 1;
-    background: #338a99;
-    color: #11444d;
-  }
-  
-  .project-bio h3 {
-    font-size: 48px;
-    display: contents;
-    padding:30px;
-  }
-  
-  .project-1 {
-    background-image: url("../assets/images/runbuddy.png");
-  }
-  
-  .project-2 {
-    background-image: url("../assets/images/horiseon.png");
-  }
-  
-  .project-img {
-    min-height: 300px;
-    background-size: cover;
-  }
+/* MY WORK START */
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
+/* MY WORK END */
+
+/* FOOTER STYLE START */
+footer div ul li {
+    display: inline;
+    padding: 100px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+/* FOOTER STYLE END */
