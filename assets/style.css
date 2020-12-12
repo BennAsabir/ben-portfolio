@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Styles to <header> start */
+/* STYLES TO <HEADER> START */
 header {
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -46,4 +46,141 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-/* Styles to <header> end */
+/* STYLES TO <HEADER> END */
+
+/* HERO STYLES START */
+.hero {
+    height: 800px;
+    width: 50%;
+    margin-bottom: 25px;
+    background-image: url("../assets/images/benspicture.JPG");
+    background-size: cover;
+    background-position: center;
+}
+  
+  .hero-cta {
+    width: 90%;
+    margin-left: 120%;
+    color: #11444d;
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  
+  .hero-cta {
+    font-size: 50px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .section-title {
+    font-size: 48px;
+    border-bottom: 3px solid;
+    color: #11444d;
+    padding-bottom: 30px;
+    padding-top: 10%;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+  }
+
+  .intro p {
+    line-height: 1.7;
+    color: #11444d;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  /* MEET THE TRAINERS START */
+.trainers {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .trainer {
+    margin: 20px;
+    flex: 1;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+  }
+  
+  .trainer-bio {
+    padding: 25px;
+    line-height: 1.3;
+  }
+  
+  .trainer-bio h3 {
+    font-size: 28px;
+    display: none;
+  }
+  
+  .trainer-bio h4 {
+    font-weight: lighter;
+    font-size: 22px;
+    margin-bottom: 15px;
+    display: none;
+  }
+  
+  .trainer-bio p {
+    font-size: 17px;
+  }
+  
+  .trainer-1 {
+    background-image: url("../assets/images/runbuddy.png");
+  }
+  
+  .trainer-2 {
+    background-image: url("../assets/images/horiseon.png");
+  }
+  
+  .trainer-img {
+    width: 100%;
+    min-height: 300px;
+    background-size: cover;
+    display: flex;
+    padding: 15px;
+    align-items: flex-end;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .trainer:hover .trainer-img::after {
+    opacity: 1;
+  }
+  
+  .trainer-img::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(252, 225, 56, 0.3), var(--secondary-color));
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  
+  .trainer-img h3 {
+    position: relative;
+    z-index: 1;
+    font-size: 28px;
+    margin-bottom: 5px;
+    top: 200px;
+    transition: 0.6s;
+  }
+  
+  .trainer-img h4 {
+    position: relative;
+    z-index: 1;
+    font-size: 22px;
+    top: 200px;
+    transition: 0.6s;
+    transition-delay: .2s;
+  }
+  
+  .trainer:hover .trainer-img h3, .trainer:hover .trainer-img h4 {
+    top: 0;
+  }
