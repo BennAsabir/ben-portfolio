@@ -21,6 +21,9 @@
                 <li>
                     <a href="#contact-me">Contact Me</a>
                 </li>
+                <li>
+                    <a href="">My Resume</a>
+                </li>
             </ul>
         </div>
     </header>
@@ -37,46 +40,51 @@
 </section> 
 
 <!-- ABOUT ME SECTION START -->
-  <section id="about-me" class="intro">
-    <div>
-      <h2 class="section-title">
-        ABOUT ME
-      </h2>
-    </div>
-    <div>
-      <p>
-        Hi, my name is Benjamin Asabir, and i am currently studying to become a web developer. 
-        I have always been a fan of the "ins and outs" of how websites and applications work. 
-        My goal in the near future is to become a front end web developer, 
-        and as i improve my skills work my way toward a full stack developer.
-      </p>
-    </div>
-  </section>
 <!-- ABOUT ME SECTION END --> 
 
-<!-- MY WORK SECTION -->
-    <div id="my-work">
-      <h2 class="section-title">
-        MY WORK
-      </h2>
+<div class="grid-container">
+    <div class="grid-item-header">
+        <h2 id="about-me">
+            ABOUT ME
+        </h2>
     </div>
-
-    <div class="work">
+    <div class="grid-item">
+        <p >
+            Hi, my name is Benjamin Asabir, and i am currently studying to become a web developer. 
+            I have always been a fan of the "ins and outs" of how websites and applications work. 
+            My goal in the near future is to become a front end web developer, 
+            and as i improve my skills work my way toward a full stack developer.
+        </p>
+    </div>
+</div>
+<br>
+<div class="grid-container">
+    <div class="grid-item-header">
+        <h2 id="my-work">
+            MY WORK
+        </h2>
+    </div>
+    <div class="grid-item-2">
         <div class="work-1">
             <a href="https://bennasabir.github.io/run-buddy/"><img class="left" src="./assets/images/runbuddy.png" alt=""></a>
         </div>
+    </div>
+    <div class="grid-item-2">
         <div class="work-2">
             <a href="https://bennasabir.github.io/horiseon-refactor/"><img class="right" src="./assets/images/horiseon.png" alt=""></a>
         </div>
     </div>
-    <!-- MY WORK SECTION -->
+</div>
+<br>
 
-    <!-- FOOTER START -->
-    <footer>
-        <h2 id="contact-me" class="section-title">
+<div class="grid-container">
+    <div class="grid-item-header">
+        <h2 id="contact-me">
             CONTACT ME
         </h2>
-        <div>
+    </div>
+    <div class="grid-item">
+        <footer>
             <ul>
                 <li>555.555.5555</li>
                 <li>lernantino@website.com</li>
@@ -84,7 +92,9 @@
                 <li>Twitter</li>
                 <li>Spotify</li>
             </ul>
-        </div>
-    </footer>
+        </footer>
+    </div>
+</div>
+  
 </body>
 </html>

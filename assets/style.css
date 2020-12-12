@@ -40,6 +40,7 @@ header div ul {
 header div ul li {
     display: inline-block;
     margin-left: 25px;
+    text-decoration: underline;
 }
 
 a {
@@ -74,16 +75,6 @@ a {
 /* HERO STYLES END */
 
 /* ABOUT ME SECTION START */
-  .section-title {
-    font-size: 48px;
-    border-bottom: 3px solid;
-    color: #11444d;
-    padding-bottom: 30px;
-    padding-top: 10%;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
-  }
 
   .intro p {
     line-height: 1.7;
@@ -95,23 +86,54 @@ a {
   }
 /* ABOUT ME SECTION END */
 
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: #d9dcd6;
+    padding: 100px;
+}
+
+.grid-item-header {
+    border-right: solid;
+    padding: 70px;
+    font-size: 30px;
+    text-align: right;
+    color: #11444d;
+}
+  
+  .grid-item {
+    border-right: solid;
+    padding: 70px;
+    font-size: 30px;
+    color: #11444d;
+    align-items: center;
+}
+
+
 /* MY WORK START */
 .left {
-    float: left;
-    width: 50%;
+    width: 90%;
 }
 
 .right {
-    float: right;
-    width: 50%;
+    width: 75%;
 }
 /* MY WORK END */
 
 /* FOOTER STYLE START */
-footer div ul li {
+footer ul li {
     display: inline;
-    padding: 100px;
+    padding: 20px;
     font-size: 30px;
     text-decoration: underline;
+    color: #11444d;
+}
+
+footer ul li a {
+    color: #11444d;
 }
 /* FOOTER STYLE END */
+
+ 
+  
+  
