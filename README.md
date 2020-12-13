@@ -11,7 +11,7 @@ This is my Portfolio, it will be going through various stages of change as i lea
 
 Image showcasing two of my projects in my website portfolio!
 Upon hovering over the images of my projects, they will enlarging!
-<img src=./assests/images/portfolioimage.png>
+<img src="./assests/images/portfolioimage.png">
 
 ## Technologies
 Project is created with 
