@@ -23,9 +23,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
     background-color: #024e76;
   }
   
@@ -130,7 +127,7 @@
   }
   /* SECTION TITLE STYLES END */
   
-  /* ABOUT ME STYLES */
+  /* ABOUT ME STYLES START */
   
   .intro p {
     line-height: 1.7;
@@ -140,68 +137,9 @@
     font-size: 20px;
     text-align: center;
   }
-  /* ABOUT STYLES END */
+  /* ABOUT ME STYLES END */
   
-  
-  /* WHAT YOU DO STYLES START */
-  .myskills { 
-    background: var(--primary-color);
-  }
-  
-  .step {
-    margin: 50px auto;
-    padding-bottom: 50px;
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .step:not(:last-child) {
-    border-bottom: 1px solid var(--tertiary-color);
-  }
-  
-  .step h3 {
-    color: var(--secondary-color);
-    font-size: 46px;
-    flex: 1 30%;
-  }
-  
-  .step-info {
-    flex: 2 70%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  
-  .step-img {
-    flex: 1 12%;
-    margin-right: 20px;
-  }
-  
-  .step-img img {
-    max-width: 100%;
-  }
-  
-  .step-text {
-    flex: 12;
-  }
-  
-  .step-text p {
-    color: var(--tertiary-color);
-    font-size: 18px;
-  }
-  
-  .step-text h4 {
-    font-size: 26px;
-    line-height: 1.5;
-    color: var(--secondary-color);
-  }
-  
-  /* WHAT YOU DO STYLES END */
-  
-  /* MEET THE TRAINERS START */
+  /* MY PROJECTS STYLE START */
   .trainers {
     width: 100%;
     margin: 0 auto;
@@ -224,14 +162,12 @@
   
   .trainer-bio h3 {
     font-size: 28px;
-    display: none;
   }
   
   .trainer-bio h4 {
     font-weight: lighter;
     font-size: 22px;
     margin-bottom: 15px;
-    display: none;
   }
   
   .trainer-bio p {
@@ -239,7 +175,7 @@
   }
   
   .trainer-1 {
-    background-image: url("../images/trainer-1.jpg");
+    background-image: url("../assets/images/runbuddy.png");
   }
   
   .trainer-2 {
@@ -269,7 +205,7 @@
     content: "";
     height: 100%;
     width: 100%;
-    background: linear-gradient(rgba(252, 225, 56, 0.3), var(--secondary-color));
+    background: linear-gradient(rgba(1, 55, 65, 0), var(--secondary-color));
     position: absolute;
     top: 0;
     left: 0;
@@ -286,19 +222,10 @@
     transition: 0.6s;
   }
   
-  .trainer-img h4 {
-    position: relative;
-    z-index: 1;
-    font-size: 22px;
-    top: 200px;
-    transition: 0.6s;
-    transition-delay: .2s;
-  }
-  
-  .trainer:hover .trainer-img h3, .trainer:hover .trainer-img h4 {
+  .trainer:hover .trainer-img h3, .trainer:hover {
     top: 0;
   }
-  /* TRAINER STYLES END */
+  /* MY PROJECTS STYLE END */
   
   /* REACH OUT STYLES START */
   .contact {
