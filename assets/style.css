@@ -226,15 +226,16 @@
   }
   
   .project-img h3 {
+    color: white;
     position: relative;
     z-index: 1;
     font-size: 28px;
     margin-bottom: 5px;
-    top: 200px;
+    top: 300px;
     transition: 0.6s;
   }
   
-  .trainer:hover .trainer-img h3, .trainer:hover {
+  .project:hover .project-img h3, .project:hover {
     top: 0;
   }
   /* MY PROJECTS STYLE END */
